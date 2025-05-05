@@ -1,3 +1,9 @@
+ @font-face{
+    font-family: myFont;
+    src:url(fonts/airtravel.otf)
+ }
+
+
 *{
     margin:0;
     padding: 0;
@@ -28,13 +34,30 @@ nav ul li a{
     font-size: 20px;
     color: white;
 }
+ .head-container{
+    display:flex;
+ }
+.suite-image{
+    width: 50px;
+    height: 50px;
+}
+.logo-head{
+    padding: 5px 0 0 10px;
+}
+h1{
+    font-family: myFont;
+    color: black;
+    
+}
 .icon-content{
     display: none;
+    /* display:block; */
 }
 
 .fa-bars{
     font-size: 30px;
     color:white;
+    
 }
 
 .fa-x{
@@ -44,7 +67,8 @@ nav ul li a{
 .container-follow{
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 0px 0;
+    /* background:red */
    }
    .slider-content{
        width:70%;
@@ -779,7 +803,7 @@ a:hover{
 
 
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     body{
         /* background-color: green; */
     }
@@ -792,6 +816,7 @@ a:hover{
      text-align: center;
      overflow: hidden;
      background: blue;
+     z-index: 999;
      
    }
    nav ul li{
@@ -864,7 +889,7 @@ a:hover{
         padding: 160px 0; 
     }
     .container-follow{
-        padding: 300px 0;
+        margin-top: 80px;
     }
    
 

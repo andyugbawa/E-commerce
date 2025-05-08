@@ -815,7 +815,7 @@ a:hover{
      flex-direction: column;
      text-align: center;
      overflow: hidden;
-     background: blue;
+     background:linear-gradient(to right,orange, blue,purple,yellow);
      z-index: 999;
      
    }

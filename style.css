@@ -825,6 +825,7 @@ a:hover{
    }
    .icon-content{
     display:block;
+    cursor: pointer;
     
   }
   #menu-bar{

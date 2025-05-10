@@ -841,8 +841,8 @@ a:hover{
     height: 180px;  
     }
     .latest{
-        width:150px;
-         height: 180px;
+        width:100px;
+         height: 140px;
      }
 
      
@@ -881,6 +881,10 @@ a:hover{
     }
     .arrival-container{
         padding: 90px 0 0px 0;
+        /* background-color: red; */
+    }
+    .stock-arrival{
+        /* background-color: green; */
     }
 
     .footer_container{
@@ -891,6 +895,10 @@ a:hover{
     }
     .container-follow{
         margin-top: 80px;
+    }
+    .arrival1,.arrival2,.arrival3,.arrival4,.arrival5,.arrival6,.arrival7,.arrival8,.arrival9{
+        width: 100px;
+        height: 140px;
     }
    
 
